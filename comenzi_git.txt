@@ -1,0 +1,18 @@
+
+#navigare
+pwd                         # print working directory
+ls                          # list - listeaza fisiereel din folderul curent
+
+
+# pentru a face commit
+# un COMMIT este o noua varianta
+git add nume_fisier                       #a daugarea unui fisier in commit
+git commit - m 'Aici va fi un mesaj'      # adaugarea unui mesaj pentru commit-ul respectiv
+
+git push                                  # trimiterea commit-ului pe server
+
+# comenzi de status
+git --version                       # citeste versiunea de git actuala instalata
+git status                          # verifica statusul fisierlor (daca au fost modificate , adaugate)
+git log                             # istoric al tuturor comitt-urilor
+
